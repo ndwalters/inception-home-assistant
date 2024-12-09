@@ -2,10 +2,6 @@
 
 _Integration to integrate with [Inner Range Inception](https://www.innerrange.com/products/controllers/996300) security systems._
 
-If this integration has been useful to you, please consider chipping in and buying me a coffee!
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/sebr)
-
 **This integration will set up the following platforms.**
 
 Platform | Description
@@ -27,7 +23,6 @@ If you do not wish to use HACS, then please download the latest version from the
 2. Search for the `Inception` integration and install it
 3. Restart Home Assistant
 
-
 ### 2. Configure via Home Assistant
 
 1. Navigate to Home Assistant Settings > Devices & Services
@@ -47,4 +42,4 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 
 ## Acknowledgements
 
-This integration is a custom component Home Assistant port of the excellent [inception-mqtt](https://github.com/matthew-larner/inception-mqtt/) project by @matthew-larner.
+This integration is thanks to [Seb Ruiz](https://github.com/sebr/inception-home-assistant), a custom component for Home Assistant, based on the work by [matthew-larnert](https://github.com/matthew-larner/inception-mqtt/).
