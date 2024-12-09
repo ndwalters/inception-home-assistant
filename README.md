@@ -13,6 +13,8 @@ Platform | Description
 `binary_sensor` | For each Input and for metadata of each Door.
 `switch` | A switch for each Siren or Strobe.
 
+## Installation
+
 ### 1. Prepare the Inception
 
 1. Navigate to your Inception controllers web interface
