@@ -40,8 +40,8 @@ Platform | Description
    
 ## Contributions are welcome!
 
-If you want to contribute, please consider reaching out to [Seb Ruiz](https://github.com/sebr/inception-home-assistant)
+If you want to contribute, please consider reaching out to [Sebr](https://github.com/sebr/inception-home-assistant)
 
 ## Acknowledgements
 
-This integration is thanks to [Seb Ruiz](https://github.com/sebr/inception-home-assistant), a custom component for Home Assistant, based on the work by [matthew-larnert](https://github.com/matthew-larner/inception-mqtt/).
+This integration is thanks to [Sebr](https://github.com/sebr/inception-home-assistant), a custom component for Home Assistant, based on the work by [matthew-larnert](https://github.com/matthew-larner/inception-mqtt/).
