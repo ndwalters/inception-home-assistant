@@ -1,6 +1,8 @@
-# InnerRange Inception
+# Inner Range Inception
 
-_Integration to integrate with [Inner Range Inception](https://www.innerrange.com/products/controllers/996300) security systems._
+![alt text](https://static.wixstatic.com/media/f1571b_2fcd24ff4c9c441f96fae997eea47ef8~mv2.jpg/v1/fill/w_792,h_576,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IR-Inception%20Controller.jpg)
+
+_Integrate the [Inner Range Inception](https://www.innerrange.com/products/controllers/996300) panel to Home Assistant._
 
 **This integration will set up the following platforms.**
 
@@ -11,34 +13,32 @@ Platform | Description
 `binary_sensor` | For each Input and for metadata of each Door.
 `switch` | A switch for each Siren or Strobe.
 
-## Installation
+### 1. Prepare the Inception
 
-Recommended installation is via the [Home Assistant Community Store (HACS)](https://hacs.xyz/). [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
+1. Navigate to your Inception controllers web interface
+2. Create a user and assign the appropriate permissions
+3. Uner Remote/Web Access, create a "User API Token"
 
-### 1. Install via HACS
+### 2. Installation in HACS (Custom Repositories):
 
-If you do not wish to use HACS, then please download the latest version from the [releases page](https://github.com/sebr/inception-home-assistant/releases) and proceed to Step 2.
-
-1. Navigate to the HACS add-on
-2. Search for the `Inception` integration and install it
-3. Restart Home Assistant
-
-### 2. Configure via Home Assistant
+1. Select HACS in Home Assistant
+2. Go to any of the sections (integrations, frontend, automation).
+3. Click on the 3 dots in the top right corner.
+4. Select "Custom repositories"
+5. Add the URL "https://github.com/ndwalters/sensor.sonarr_upcoming_media"
+6. Select the category "integrations".
+7. Click the "ADD" button.
+   
+### 3. Configure via Home Assistant
 
 1. Navigate to Home Assistant Settings > Devices & Services
 2. Click `+ Add Integration`
 3. Search for `Inception`
 4. Complete the guided configuration
-
-## Configuration is done in the UI
-
-1. Navigate to your Inception controller
-2. Create a user and assign it the appropriate permissions
-3. Create a token for the user
-
+   
 ## Contributions are welcome!
 
-If you want to contribute to this please read the [Contribution guidelines](CONTRIBUTING.md)
+If you want to contribute, please consider reaching out to [Seb Ruiz](https://github.com/sebr/inception-home-assistant)
 
 ## Acknowledgements
 
